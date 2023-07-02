@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event Registration Form</title>
+</head>
+<body>
+<h1>Event Registration Form</h1>
+<form action="/register" method="post">
+  <label>Name:</label><br>
+  <input type="text" name="name" required><br>
+  
+  <label>Email:</label><br>
+  <input type="text" name="email" required><br>
+  
+  <label>Password:</label><br>
+  <input type="password" name="password" required><br>
+  
+  <label>Phone number:</label><br>
+  <input type="text" name="phoneNumber" required><br>
+  
+  <label>Gender:</label><br>
+  <select name="gender" required>
+    <option value="">Select gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select><br>
+  
+  <label>Language:</label><br>
+  <select name="language" required>
+    <option value="">Select language</option>
+    <option value="English">English</option>
+    <option value="Spanish">Spanish</option>
+    <option value="Hindi">Hindi</option>
+    <option value="Arabic">Arabic</option>
+    <option value="Russian">Russian</option>
+  </select><br>
+  
+  <label>Zip code:</label><br>
+  <input type="text" name="zipcode" required><br>
+  
+  <label>About:</label><br>
+  <textarea name="about" required></textarea><br>
+  
+  <input type="submit" value="Register">
+</form>
+</body>
+</html>
